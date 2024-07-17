@@ -1,0 +1,12 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation=
+                           "http://www.liquibase.org/xml/ns/dbchangelog
+                           https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="scripts/000-create-product-info-table.sql" relativeToChangelogFile="true" />
+    <include file="scripts/001-create-product-feature-table.sql" relativeToChangelogFile="true" />
+    <include file="scripts/002-create-product-photo-table.sql" relativeToChangelogFile="true" />
+    <include file="scripts/003-fill-test-info.sql" relativeToChangelogFile="true" />
+
+</databaseChangeLog>
